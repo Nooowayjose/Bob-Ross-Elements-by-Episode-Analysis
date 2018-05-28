@@ -31,12 +31,12 @@ d3.csv('bobRossElem.csv', function(error, data) {
                 .style("position", "absolute")
                 .style("visibility", "hidden")
                 .style("color", "white")
-                .style("padding", "10px")
+                .style("padding", "4px")
                 .style("background-color", "#626D71")
                 .style("border-radius", "40px")
                 .style("text-align", "center")
                 .style("font-family", "monospace")
-                .style("width", "300px")
+                .style("width", "100px")
                 .text("");
 
 

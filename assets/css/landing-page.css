@@ -3,13 +3,13 @@
  =========================================================
  * Awesome Landing Page - v1.2.2
  =========================================================
- 
+
  * Product Page: https://www.creative-tim.com/product/awesome-landing-page
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/creativetimofficial/awesome-landing-page/blob/master/LICENSE.md)
- 
+
  =========================================================
- 
+
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 
@@ -62,6 +62,11 @@ p {
 /*     General overwrite     */
 body {
   font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+}
+
+.chart-example{
+  margin-left: 500px;
+  max-width: 80px;
 }
 
 a {
@@ -709,7 +714,7 @@ a:focus, a:active {
   width: 100%;
   position: relative;
   height: 100%;
- 
+
 }
 
 .parallax .parallax-image.second-image{
@@ -839,7 +844,7 @@ a:focus, a:active {
     overflow: hidden;
     border-radius: 50%;
     border: 1px solid #333333;
-    width: 50px; 
+    width: 50px;
     float: left;
 }
 
@@ -862,7 +867,7 @@ a:focus, a:active {
 
 .landing-page1 .container{
   max-width: 970px;
-} 
+}
 
 .landing-page2 .container{
   max-width: 1170px;
@@ -1117,7 +1122,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     height: 600px;
     text-align: center;
    }
- 
+
    .landing-page .section-no-padding .parallax .info{
     position: absolute;
     left: 50%;
@@ -1138,7 +1143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
    .landing-page .section-no-padding .parallax .info  a{
     position: relative;
     z-index: 10;
-    
+
     }
 
    .landing-page .section-no-padding .parallax .info .btn-lg{
@@ -1200,7 +1205,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         margin-top: 20px;
    }
 
-    .landing-page .section-features .card.card-blue{ 
+    .landing-page .section-features .card.card-blue{
       border-color: #CCE7F5;
     }
     .landing-page .section-features .card.card-blue .icon i{
@@ -1212,13 +1217,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     .landing-page .section-features .card.card-green .icon i{
       color:#3ABE41;
     }
-    .landing-page .section-features .card.card-orange{ 
+    .landing-page .section-features .card.card-orange{
       border-color: #FAD9CD;
     }
     .landing-page .section-features .card.card-orange .icon i{
       color:#ff967f;
     }
-     .landing-page .section-features .card.card-red{ 
+     .landing-page .section-features .card.card-red{
       border-color: #FFBFC3;
     }
     .landing-page .section-features .card.card-red .icon i{
@@ -1244,7 +1249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
   .landing-page .section-testimonial .carousel{
     margin-top: 50px;
-    
+
   }
     .landing-page .section-testimonial .carousel-inner .item .mask{
       width: 100px;
@@ -1361,7 +1366,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     float: left;
 }
 
-.fixed-plugin .active a, 
+.fixed-plugin .active a,
 .fixed-plugin a:hover{
     border-color: #00bbff;
 }
@@ -1435,7 +1440,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   font-weight: 600;
   text-transform: uppercase;
   padding: 0 15px;
-} 
+}
 
 .fixed-plugin .adjustments-line p{
     float: left;
@@ -1464,7 +1469,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
       border-radius: 10px;
       background-color: #FFF;
       padding-left: 0;
-      padding-right: 0; 
+      padding-right: 0;
       opacity: 1;
       cursor: pointer;
 }
@@ -1473,7 +1478,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 .fixed-plugin .dropdown-menu > li > a.switch-trigger:focus{
     background-color: transparent;
 }
-.fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger), 
+.fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger),
 .fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger){
     border-color: #00bbff;
     background-color: #FFFFFF;
@@ -1492,8 +1497,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   border-color: rgb(44, 168, 255);
 }
 
-.fixed-plugin .dropdown-menu > li.active > a p, 
-.fixed-plugin .dropdown-menu > li > a p, 
+.fixed-plugin .dropdown-menu > li.active > a p,
+.fixed-plugin .dropdown-menu > li > a p,
 .fixed-plugin .dropdown-menu > li.active > a:focus p{
     color: #777777;
 }
@@ -1576,7 +1581,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         -o-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
         -ms-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
         transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
-    
+
     }
     .navbar-nav > li.open > .dropdown-menu, .open .dropdown-menu{
         -webkit-transform-origin: 29px -50px;
@@ -1618,7 +1623,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         border-top: 16px solid rgba(0,0,0,0);
         right: -16px;
     }
-    
+
     .fixed-plugin .dropdown-menu:after{
         border-bottom: 16px solid rgba(0, 0, 0, 0);
         border-left: 16px solid #FFFFFF;
@@ -1687,10 +1692,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
+
+  .chart-example{
+    margin-left: -300px;
+    max-width: 80px;
+  }
 }
 
 @media (min-width: 768px){
     .landing-page .navbar-top{
         padding-top: 10px;
     }
+
+
 }

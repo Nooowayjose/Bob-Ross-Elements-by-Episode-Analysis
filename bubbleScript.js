@@ -7,15 +7,15 @@ d3.csv('bobRossElem.csv', function(error, data) {
           throw error;
       }
 
-      var chart = bubbleChart().width(1400).height(650);
+      var chart = bubbleChart().width(630).height(650);
       d3.select('#chart').datum(data).call(chart);
     });
 
     function bubbleChart() {
-        var width = 900,
-            height = 650,
+        var width = 200,
+            height = 350,
             maxRadius = 100,
-            columnForColors = "category", //You can replace this with
+            columnForColors = "category",
             columnForRadius = "views"; //You can replace this with "Count"
 
         function chart(selection) {
@@ -41,7 +41,7 @@ d3.csv('bobRossElem.csv', function(error, data) {
 
 
             var simulation = d3.forceSimulation(data)
-                .force("charge", d3.forceManyBody().strength([-150]))
+                .force("charge", d3.forceManyBody().strength([-120]))
                 .force("x", d3.forceX())
                 .force("y", d3.forceY())
 

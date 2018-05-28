@@ -1704,8 +1704,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         padding-top: 10px;
     }
 
-    .chart-example{
-      margin-left: -230px;
-      max-width: 80px;
-    }
+    
 }

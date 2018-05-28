@@ -7,7 +7,7 @@ d3.csv('bobRossElem.csv', function(error, data) {
           throw error;
       }
 
-      var chart = bubbleChart().width(630).height(650);
+      var chart = bubbleChart().width(650).height(650);
       d3.select('#chart').datum(data).call(chart);
     });
 

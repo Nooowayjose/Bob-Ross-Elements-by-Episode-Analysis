@@ -65,7 +65,7 @@ body {
 }
 
 .chart-example{
-  margin-left: 500px;
+  margin-left: 700px;
   max-width: 80px;
 }
 
@@ -1694,7 +1694,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 
   .chart-example{
-    margin-left: -293px;
+    margin-left: -275px;
     max-width: 80px;
   }
 }
